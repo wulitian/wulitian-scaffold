@@ -1,6 +1,6 @@
 {
   "name": "wulitian-scaffold",
-  "version": "2022.0.1",
+  "version": "2022.1.0",
   "description": "脚手架模板",
   "main": "index.js",
   "scripts": {
@@ -25,15 +25,5 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
   }
 }
